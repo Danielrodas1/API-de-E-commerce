@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
+use Illuminate\Support\ServiceProvider;
 
 return [
 
@@ -29,10 +30,10 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-    'providers' => [
+    'providers' => ServiceProvider::defaultProviders()->merge([
         // Los providers de paquetes (JWT, L5-Swagger, etc.) se registran
         // automaticamente via Package Discovery de Composer.
-    ],
+    ])->toArray(),
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,

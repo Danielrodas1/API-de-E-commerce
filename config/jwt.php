@@ -14,7 +14,7 @@ return [
 
     'refresh_ttl' => env('JWT_REFRESH_TTL', 20160),
 
-    'algo' => env('JWT_ALGO', \Tymon\JWTAuth\Providers\JWT\Provider::ALGO ?? 'HS256'),
+    'algo' => env('JWT_ALGO', 'HS256'),
 
     'required_claims' => [
         'iss', 'iat', 'exp', 'nbf', 'sub', 'jti',
