@@ -1,3 +1,10 @@
+Optimización Avanzada de Rendimiento: Dominio de Web Vitals y Mutaciones Asíncronas en el Servidor
+
+<img width="1406" height="739" alt="image" src="https://github.com/user-attachments/assets/b86c199a-6c61-4e2b-ac70-0500828e5df1" />
+
+
+
+
 # API de E-commerce Segura con Swagger Completo
 
 API RESTful para un e-commerce básico construida con **Laravel 12**, autenticación **JWT**, pasarela de pago **Stripe**, documentación **Swagger/OpenAPI** y base de datos **MySQL**. Todo el entorno corre en **Docker**.
